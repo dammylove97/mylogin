@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Register</title>
+</head>
+<body>
+    <div class="section">
+        <form action="">
+            <h1>Be part of the leading team!</h1>
+            <div class="form-group">
+                <div class="form-input">
+                <input type="text" placeholder="FirstName" required>
+                <input type="text" placeholder="LastName" required>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <input type="email" placeholder="Email" required>
+            </div>
+
+            <div class="form-group">
+                <!-- <label for="gender">Gender</label> -->
+                <select id="gender" name="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="">Prefer Not to Say</option>
+                    <option value="other">Other</option>
+                </select>
+            
+            
+                <!-- <label for="occupation">Occupation</label> -->
+                <select id="occupation" name="occupation">
+                    <option value="engineer">Engineer</option>
+                    <option value="softwareDev">Software Developer</option>
+                    <option value="caterer">Caterer</option>
+                    <option value="teacher">Teacher</option>
+                    <option value="cook">Cook</option>
+                    <option value="banker">Banker</option>
+                    <option value="businessman">Business Man</option>
+                    <option value="politicalappointee">Political Appointee</option>
+                    <option value="lecturer">Lecturer</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <input type="text" placeholder="Address" required>
+            </div>
+
+            <div class="form-group">
+                <div class="form-input">
+                <input type="password" placeholder="Password" required>
+                <input type="password" placeholder="Confirm Password" required>
+                </div>
+            </div>
+
+            <button type="submit" class="btn"> Register </button>
+
+            <div class="login-link">
+                <p>Have an account already? <a href="login.html">Login</a> </p>
+            </div>
+
+        </form>
+    </div>
+</body>
+</html>
