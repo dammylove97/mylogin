@@ -11,7 +11,7 @@ if (!currentUser) {
         welcomeElement.textContent = currentUser.username;
     }
 
-    //logout button
+    //logout button 
     const logoutBtn = document.getElementById('logoutBtn');
     if (logoutBtn) {
         logoutBtn.addEventListener('click', function() {
