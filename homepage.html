@@ -4,13 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="homepage.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>Welcome to the Den!</title>
 </head>
 <body>
-    <div class="nava">
+    <!-- <div class="nava">
         <h1> Hello @Username welcome to the homepage</h1>
+    </div> -->
+
+    <div class="nav">
+        <div><h2>Home</h2></div>
+        <div><h2>Contact</h2></div>
+        <div><h2>Blog</h2></div>
+        <div><h2>News</h2></div>
     </div>
+
+    <button id="logoutBtn" class="logout-btn">Logout</button>
+
+    <h1>Welcome to Your Dashboard, <span id="welcomeUser"></span>!</h1>
+    <p>This is your secure homepage.</p>
+
+    <script src="homepage.js"></script>
 </body>
 </html>
